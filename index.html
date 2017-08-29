@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <link rel="icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <main class="chat-container">
+        <header class="person">
+            <img class="person__photo" src="img/photo.jpg">
+            <div class="person__info">
+                <h1 class="person__name">Вероника Ростова </h1>
+                <p class="person__position">Менеджер по продажам </p>
+            </div>
+            <div class="person__description-of-services">
+                Подберу для вас самые лучшие предложения. <br>
+                Мои услуги абсолютно
+            </div>
+            <div class="services">
+                <h2 class="services__title">Услуг</h2>
+                <div class="line-horizontal"></div>
+                <div class="services__container">
+                    <div class="line-vertical"></div>
+                    <div class="services__item">
+                        <div class="services__item-rate--reservation services__item-rate"></div>
+                        <p class="services__item-name">Ручное бронирование</p>
+                        <p class="services__item-amount">11</p>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item-rate--tour services__item-rate"></div>
+                        <p class="services__item-name">Пакетные туры</p>
+                        <p class="services__item-amount">3</p>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="services__item-rate--hotel services__item-rate"></div>
+                        <p class="services__item-name">Отели</p>
+                        <p class="services__item-amount">1</p>
+                    </div>
+                </div>
+                <div class="line-horizontal"></div>
+                <div class="services__total">
+                    <p class="services__total-name">Всего</p>
+                    <p class="services__total-amount">15</p>
+                </div>
+            </div>
+
+        </header>
+        <section class="comments">
+            <div class="comments__common">
+                <div class="comments__common-info">
+                    <h3 class="comments__common-header">Последние отзывы</h3>
+                    <a href="#" class="comments__common-all">
+                        Все отзывы
+                    </a>
+                </div>
+
+                <div class="comments__common-rate">
+                    <div class="comments__rate-info">
+                       <img src="img/like.jpg" class="comments__rate-img">
+                        <p class="comments__rate-quantity">131</p>
+                    </div>
+                    <div class="comments__rate-info">
+                        <img src="img/comment.jpg" class="comments__rate-img">
+                        <p class="comments__rate-quantity">14</p>
+                    </div>
+
+                </div>
+            </div>
+            <ul class="comments__list">
+                <li class="comments__item">
+                    <p class="comments__item-person-name">Самуил</p>
+                    <p class="comments__item-data">13 октября 2011</p>
+                    <div class="comments__item-text">
+                        Привет, Верунь! ниче себе ты крутая. фотка класс!!!!
+                    </div>
+                </li>
+
+                <li class="comments__item">
+                    <p class="comments__item-person-name">Лилия Семёновна</p>
+                    <p class="comments__item-data">14 октября 2011</p>
+                    <div class="comments__item-text">
+                        Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?
+                    </div>
+                </li>
+
+                <li class="comments__item">
+                    <p class="comments__item-person-name">Лилия Семёновна</p>
+                    <p class="comments__item-data">14 октября 2011</p>
+                    <div class="comments__item-text">
+                        Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="new-comment">
+            <textarea class="new-comment__input"></textarea>
+            <button class="new-comment__add">Написать консультанту</button>
+        </section>
+    </main>
+    <script type="text/javascript" src="script/script.js"></script>
+
+</body>
+</html>
+
+
